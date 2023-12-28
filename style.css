@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Baloo+Bhai+2:wght@400;600&family=Bangers&family=Bebas+Neue&family=Bree+Serif&family=Fredoka+One&family=Lato:ital,wght@1,700&family=Mochiy+Pop+P+One&family=Open+Sans:wght@300&family=Raleway:wght@500&family=Roboto:wght@400;500&family=Staatliches&family=Supermercado+One&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    background-image: linear-gradient(to right top, #0252cb, #0068d5, #007bdb, #008ede, #069fdf);
+    padding: 30px 45px;
+    border-radius: 20px;
+}
+
+.timeSlot {
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+
+#hour,
+#minutes,
+#seconds {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#date {
+    color: #f5d866;
+    font-weight: 500;
+}
+
+#slot {
+    padding-left: 9.7px;
+}
+
+.upperSlot {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 24px;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.mostOfTheStaticTime {
+    display: flex;
+    width: 300px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 4.5rem;
+    color: white;
+    font-weight: 400;
+}
+
+.mostOfTheStaticTime #hour {
+    color: #f3cc2f;
+}
+
+.separatorSlot {
+    margin-bottom: 15px;
+    /* font-family: 'Bangers', sans-serif; */
+}
+
+#separator {
+    width: 250px;
+}
+
+.dynamicTime #seconds {
+    width: 300px;
+    justify-content: center;
+    /* font-family: 'Raleway', sans-serif; */
+    color: white;
+    margin-top: 30px;
+    font-size: 25px;
+}
